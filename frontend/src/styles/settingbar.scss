@@ -1,0 +1,19 @@
+@import "./variables";
+
+.setting-bar {
+  height: $toolbar-height;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: $toolbar-height;
+
+  &__input {
+    margin: 2px 0 0 10px;
+  }
+
+  label {
+    margin-left: 15px;
+  }
+}

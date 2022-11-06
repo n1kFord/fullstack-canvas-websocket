@@ -1,0 +1,31 @@
+@import "./variables";
+
+.canvas {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__input {
+    padding-left: 5px;
+    outline: none;
+    width: 260px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: rgba(0, 0, 0, .5);
+    transition: .2s ease-in-out;
+
+    &:hover {
+      border: 1px solid rgba(0, 0, 0, .5);
+    }
+
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, .7);
+      color: rgba(0, 0, 0, .8);
+    }
+  }
+}
+
+canvas {
+  border: 2px solid rgba(0, 0, 0, .54);
+  background-color: white;
+}
