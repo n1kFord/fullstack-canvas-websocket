@@ -2,7 +2,7 @@
 
 ## fullstack project
 
-### Abut:
+### About:
 
 This is an educational full-stack project, which is a drawing application. It synchronizes user actions and allows two
 people to draw on the same canvas using a unique link.
@@ -17,4 +17,4 @@ in root directory: ``docker-compose up -d``
 
 To Visit App:
 
-`localhost:3000/ideas`
+`localhost:3000`
