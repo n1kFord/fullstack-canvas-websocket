@@ -17,4 +17,4 @@ in root directory: ``docker-compose up -d``
 
 To Visit App:
 
-`localhost:3000`
+`http://localhost:3000`
